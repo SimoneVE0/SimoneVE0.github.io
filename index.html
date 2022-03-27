@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<HTML lang="no">
+  <head>
+      <meta charset="UTF-8">
+      <meta htttp-equiv="X-UA-Compatible" content="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hangman</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="innpakning">
+  <h1>Hangman</h1>
+   <p>Bruk alfabetet under for å gjette ordet og klikk på hint for å få en ledertråd. </p>
+</div>
+<div class="innpakning">
+   <div id="buttons"></div>
+   <p id="catagoryName"></p>
+   <div id="hold">
+   </div>
+   <p id="mineLiv"></p>
+   <p id="ledertråd">Hint:</p>
+    <canvas id="pinnemann"></canvas>
+   <div class="container">
+     <button id="hint">Hint</button>
+     <button id="nullstill">Spill igjen</button>
+   </div>
+</div>
+<script src="script.js"></script>
+</body>
+</HTML>
